@@ -3,7 +3,7 @@ layout : post
 title: C/C++柔性数组(可变长数组)
 category : C学习
 wangyiyun: true
-date : 2017-08-16
+date : 2022-08-16
 ---
 
 
@@ -22,7 +22,7 @@ date : 2017-08-16
 
 ### 简单的柔性数组
 
-```C++
+```c++
 typedef struct myStruct{
 	int length;
 	char array[0];	
@@ -48,7 +48,7 @@ int main(int argc,char *argvp[] )
 
 ### 动态分配大小
 
-```C++
+```c++
 typedef struct myStruct{
 	int length;
 	char array[0];	

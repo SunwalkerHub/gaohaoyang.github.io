@@ -51,6 +51,10 @@ int main(int argc,char *argvp[] )
 
 柔性数组反映了C语言对精炼代码的极致追求，这种结构对于通信中的变长数据包结构非常实用。
 
+```js
+ball.x = vx * timeInSeconds + x0
+ball.y = vy * timeInSeconds + y0
+```
 
 
 ### 动态分配大小

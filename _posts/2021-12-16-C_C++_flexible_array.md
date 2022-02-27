@@ -7,7 +7,13 @@ author: HyG
 mathjax: true
 ---
 
+* content
+{:toc}
 
+本文将开始讲述动画编程的部分，会从基本的运动属性开始：速度、向量和加速度
+
+- 速度
+- 加速度
 
 
 ## C/C++柔性数组(可边长数组)
@@ -23,7 +29,7 @@ mathjax: true
 
 ### 简单的柔性数组
 
-```
+```C
 typedef struct myStruct{
 	int length;
 	char array[0];	

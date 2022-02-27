@@ -23,7 +23,7 @@ mathjax: true
 
 ### 简单的柔性数组
 
-```js
+```
 typedef struct myStruct{
 	int length;
 	char array[0];	
@@ -49,7 +49,7 @@ int main(int argc,char *argvp[] )
 
 ### 动态分配大小
 
-```js
+```
 typedef struct myStruct{
 	int length;
 	char array[0];	

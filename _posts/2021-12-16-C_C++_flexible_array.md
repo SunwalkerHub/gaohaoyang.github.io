@@ -29,7 +29,7 @@ mathjax: true
 
 ### 简单的柔性数组
 
-```C
+```
 typedef struct myStruct{
 	int length;
 	char array[0];	
